@@ -83,33 +83,46 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(120),
-        child: Container(
-          height: 120,
-          color: AppColors.primary,
-          child: Center(
-            child: ListTile(
-              title: Text.rich(
-                TextSpan(text: "Olá, ", style: AppTextStyles.title, children: [
-                  TextSpan(
-                      text: widget.user.name,
-                      style: AppTextStyles.titleBold)
-                ]),
-              ),
-              trailing: Container(
-                height: 48,
-                width: 48,
-                decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(50),
-                    image: DecorationImage(
-                        image: NetworkImage(widget.user.photoURL!))),
-              ),
+        preferredSize: const Size.fromHeight(80),
+        child: AppBar(
+          backgroundColor: AppColors.primary,
+          title: ListTile(
+            title: Text.rich(
+              TextSpan(text: "Olá, ", style: AppTextStyles.title, children: [
+                TextSpan(text: widget.user.name, style: AppTextStyles.titleBold)
+              ]),
+              textAlign: TextAlign.start,
+            ),
+            trailing: Container(
+              height: 60,
+              width: 60,
+              decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.circular(100),
+                  image: DecorationImage(
+                      image: NetworkImage(widget.user.photoURL!))),
             ),
           ),
+          actions: [
+            PopupMenuButton<int>(
+              onSelected: (item) => onSelected(context, item),
+              itemBuilder: (context) => [
+                PopupMenuItem<int>(
+                  value: 0,
+                  child: Row(
+                    children: const <Widget>[
+                      Icon(Icons.logout, color: Colors.black),
+                      SizedBox(width: 8),
+                      Text('Sair'),
+                    ],
+                  ),
+                ),
+                const PopupMenuDivider(),
+              ],
+            ),
+          ],
         ),
       ),
       body: GridView.count(
@@ -125,5 +138,14 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
     );
+  }
+
+  void onSelected(BuildContext context, int item) {
+    switch (item) {
+      case 0:
+        print('clicou');
+        
+        break;
+    }
   }
 }
