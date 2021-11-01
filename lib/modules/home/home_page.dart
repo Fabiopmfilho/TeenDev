@@ -4,6 +4,8 @@ import 'package:kidsdev_teste/shared/themes/app_colors.dart';
 import 'package:kidsdev_teste/shared/themes/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
+import 'package:url_launcher/url_launcher.dart';
+
 class HomePage extends StatefulWidget {
   final UserModel user;
 
@@ -26,6 +28,20 @@ class _HomePageState extends State<HomePage> {
     "assets/images/funcao.png",
   ];
 
+  var des = "aaaaaaaa";
+  var des1 = "bbbbbbbb";
+  var des2 = "cccccccc";
+  var des3 = "dddddddd";
+  var des4 = "eeeeeeee";
+  var des5 = "ffffffff";
+
+  var link = '';  
+  var link1 = '';
+  var link2 = '';
+  var link3 = '';
+  var link4 = '';
+  var link5 = '';
+
   Widget customcard(String langname, String image) {
     return Padding(
       padding: const EdgeInsets.symmetric(
@@ -34,12 +50,10 @@ class _HomePageState extends State<HomePage> {
       ),
       child: InkWell(
         onTap: () {
-          Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (context) => GetJson(themeName: langname),
-          ));
+          _modal(context, langname, des);
         },
         child: Material(
-          color: Colors.indigoAccent,
+          color: AppColors.primary,
           elevation: 10.0,
           borderRadius: BorderRadius.circular(25.0),
           child: Column(
@@ -112,10 +126,10 @@ class _HomePageState extends State<HomePage> {
                 PopupMenuItem<int>(
                   value: 0,
                   child: Row(
-                    children: const <Widget>[
-                      Icon(Icons.logout, color: Colors.black),
-                      SizedBox(width: 8),
-                      Text('Sair'),
+                    children: <Widget>[
+                      Icon(Icons.logout, color: AppColors.black),
+                      const SizedBox(width: 8),
+                      const Text('Sair'),
                     ],
                   ),
                 ),
@@ -144,8 +158,76 @@ class _HomePageState extends State<HomePage> {
     switch (item) {
       case 0:
         print('clicou');
-        
+        Navigator.pushReplacementNamed(context, "/login");
         break;
     }
+  }
+
+  void _modal(context, langname, des) {
+    var assettoload;
+
+    if (langname == "Variaveis") {
+      assettoload = des;
+    } else if (langname == "Operadores") {
+      assettoload = des1;
+    } else if (langname == "If/else") {
+      assettoload = des2;
+    } else if (langname == "laço") {
+      assettoload = des3;
+    } else if (langname == "Lista") {
+      assettoload = des4;
+    } else {
+      assettoload = des5;
+    }
+
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext context) {
+        return Padding(
+          padding: const EdgeInsets.all(28.0),
+          child: SizedBox(
+            height: 200,
+            child: Center(
+              child: Column(
+                children: [
+                  Text(assettoload),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      ElevatedButton(
+                          onPressed: () async {
+                            const _url = "https://flutter.io";
+                            await canLaunch(_url)
+                                ? await launch(_url)
+                                : throw 'Could not launch $_url';
+                          },
+                          style: ElevatedButton.styleFrom(
+                            primary: AppColors.red, //background
+                            onPrimary: AppColors.white, //font
+                          ),
+                          child: const Text('Aprender Mais')),
+                      ElevatedButton(
+                        child: const Text('Começar'),
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushReplacement(MaterialPageRoute(
+                            builder: (context) => GetJson(themeName: langname),
+                          ));
+                        },
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      },
+    );
   }
 }

@@ -20,17 +20,17 @@ class GetJson extends StatelessWidget {
   // set json
   setAsset() {
     if (themeName == "Variaveis") {
-      assettoload = "assets/data/python.json";
+      assettoload = "assets/data/variaveis.json";
     } else if (themeName == "Operadores") {
-      assettoload = "assets/data/java.json";
+      assettoload = "assets/data/operadores.json";
     } else if (themeName == "if/else") {
-      assettoload = "assets/data/js.json";
+      assettoload = "assets/data/if_else.json";
     } else if (themeName == "Laço") {
-      assettoload = "assets/data/cpp.json";
-    } else if (themeName == "Lista") {
       assettoload = "assets/data/laco.json";
+    } else if (themeName == "Lista") {
+      assettoload = "assets/data/lista.json";
     } else {
-      assettoload = "assets/data/linux.json";
+      assettoload = "assets/data/funcao.json";
     }
   }
 
@@ -222,7 +222,7 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                   content: const Text("Você não pode desistir agora."),
                   actions: <Widget>[
-                    FlatButton(
+                    ElevatedButton(
                       onPressed: () {
                         Navigator.of(context).pop();
                       },

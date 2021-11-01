@@ -25,7 +25,7 @@ class AuthController {
 
   Future<void> currentUser(BuildContext context) async {
     final instance = await SharedPreferences.getInstance();
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2));
     if (instance.containsKey("user")) {
       final json = instance.get("user") as String;
       setUser(context, UserModel.fromJson(json));
@@ -35,20 +35,8 @@ class AuthController {
     }
   }
 
-  Future<void> deleteUser(UserModel user) async {
-    final instance = await SharedPreferences.getInstance();
-    await instance.setString("user", user.toJson());
-    return;
-  }
-
   Future<void> signOut(BuildContext context, UserModel? user) async {
-    user = null;
-    if (user != null) {
-      saveUser(user);
-      _user = user;
-      Navigator.pushReplacementNamed(context, "/home", arguments: user);
-    } else {
+      user = null;
       Navigator.pushReplacementNamed(context, "/login");
-    }
   }
 }

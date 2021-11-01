@@ -20,10 +20,10 @@ class AppWidget extends StatelessWidget {
       initialRoute: "/splash",
       routes: {
         "/splash": (context) => const SplashPage(),
+        "/login": (context) => LoginPage(),
         "/home": (context) => HomePage(
               user: ModalRoute.of(context)!.settings.arguments as UserModel,
             ),
-        "/login": (context) => LoginPage(),
       },
     );
   }

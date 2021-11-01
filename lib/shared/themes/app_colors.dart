@@ -5,6 +5,7 @@ class AppColors {
   static final Color black = Color(0xFF514766);
   static final Color grey = Color(0xFF6E6680);
   static final Color indigo = Color(0xFF3f51b5);
+  static final Color red = Color(0xFFf44336);
 
   static final Color background = Color(0xFFFFFFFF);
   static final Color primary = Color(0xFF536DFE);
