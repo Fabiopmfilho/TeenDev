@@ -166,14 +166,23 @@ class _HomePageState extends State<HomePage> {
           "https://vaiprogramar.com/o-que-sao-variaveis-em-programacao-passo-a-passo-com-exemplos/";
     } else if (langname == "Operadores") {
       assettoload = des1;
+      _url =
+          "https://autociencia.blogspot.com/2016/08/logica-de-programacao-operadores-aritmeticos.html";
     } else if (langname == "If/else") {
       assettoload = des2;
+      _url =
+          "https://pt.khanacademy.org/computing/computer-programming/programming/logic-if-statements/a/review-logic-and-if-statements";
     } else if (langname == "laço") {
       assettoload = des3;
+      _url =
+          "http://www.bosontreinamentos.com.br/logica-de-programacao/13-logica-de-programacao-estruturas-de-repeticao-loop-enquanto/";
     } else if (langname == "Lista") {
       assettoload = des4;
+      _url =
+          "http://www.bosontreinamentos.com.br/logica-de-programacao/17-logica-de-programacao-vetores-definicao-e-declaracao/";
     } else {
       assettoload = des5;
+      _url = "https://dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/";
     }
 
     showModalBottomSheet(
