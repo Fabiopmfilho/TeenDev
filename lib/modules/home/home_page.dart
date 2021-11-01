@@ -35,13 +35,6 @@ class _HomePageState extends State<HomePage> {
   var des4 = "eeeeeeee";
   var des5 = "ffffffff";
 
-  var link = '';  
-  var link1 = '';
-  var link2 = '';
-  var link3 = '';
-  var link4 = '';
-  var link5 = '';
-
   Widget customcard(String langname, String image) {
     return Padding(
       padding: const EdgeInsets.symmetric(
@@ -165,9 +158,12 @@ class _HomePageState extends State<HomePage> {
 
   void _modal(context, langname, des) {
     var assettoload;
+    var _url;
 
     if (langname == "Variaveis") {
       assettoload = des;
+      _url =
+          "https://vaiprogramar.com/o-que-sao-variaveis-em-programacao-passo-a-passo-com-exemplos/";
     } else if (langname == "Operadores") {
       assettoload = des1;
     } else if (langname == "If/else") {
@@ -201,7 +197,6 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       ElevatedButton(
                           onPressed: () async {
-                            const _url = "https://flutter.io";
                             await canLaunch(_url)
                                 ? await launch(_url)
                                 : throw 'Could not launch $_url';
