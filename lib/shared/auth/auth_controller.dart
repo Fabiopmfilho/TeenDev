@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kidsdev_teste/shared/models/user_model.dart';
+import 'package:kidsdev_teste/shared/models/user/user_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthController {
