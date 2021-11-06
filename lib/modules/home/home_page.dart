@@ -1,5 +1,5 @@
 import 'package:kidsdev_teste/modules/quiz/quiz_page.dart';
-import 'package:kidsdev_teste/shared/models/user/user_model.dart';
+import 'package:kidsdev_teste/shared/models/user_model.dart';
 import 'package:kidsdev_teste/shared/themes/app_colors.dart';
 import 'package:kidsdev_teste/shared/themes/app_text_styles.dart';
 import 'package:flutter/material.dart';

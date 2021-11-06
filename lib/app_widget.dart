@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kidsdev_teste/modules/home/home_page.dart';
 import 'package:kidsdev_teste/modules/splash/splash_page.dart';
-import 'package:kidsdev_teste/shared/models/user/user_model.dart';
+import 'package:kidsdev_teste/shared/models/user_model.dart';
 
 import 'modules/login/login_page.dart';
 import 'shared/themes/app_colors.dart';

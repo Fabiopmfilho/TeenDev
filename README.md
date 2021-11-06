@@ -1,6 +1,3 @@
-<!-- banner -->
-# Banner
-
 <!-- titulo -->
 <h1 align='center'>KidsDev</h1>
 
@@ -27,10 +24,10 @@ Um aplicativo de perguntas e respostas para ensinar de forma simples o principio
 - [x] Lista aleatória de perguntas
 - [ ] Histórico de perguntas
 
-<!-- demonstração de aplicação -->
+<!-- demonstração de aplicação -->"
 <!-- link do apk e fotos -->
 <h1 align="center">
-  <img alt="KidsDev" title="#KidsDev" src="#" />
+  <img alt="KidsDev" title="#KidsDev" src="./github/banner.png" />
 </h1><br>
 
 ### Pré-requisitos

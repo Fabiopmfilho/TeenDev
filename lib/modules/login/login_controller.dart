@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:kidsdev_teste/shared/auth/auth_controller.dart';
-import 'package:kidsdev_teste/shared/models/user/user_model.dart';
+import 'package:kidsdev_teste/shared/models/user_model.dart';
 
 class LoginController {
   final authController = AuthController();
