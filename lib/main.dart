@@ -2,8 +2,13 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'app_widget.dart';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 void main() {
   runApp(const AppFirebase());
+  FirebaseFirestore.instance
+      .collection("col")
+      .doc("doc");
 }
 
 class AppFirebase extends StatefulWidget {

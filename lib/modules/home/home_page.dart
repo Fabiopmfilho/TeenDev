@@ -1,8 +1,20 @@
+import 'dart:convert';
+
+import 'package:kidsdev_teste/db/api/api.dart';
+import 'package:kidsdev_teste/db/api/funcao.dart';
+import 'package:kidsdev_teste/db/api/if_else.dart';
+import 'package:kidsdev_teste/db/api/laco.dart';
+import 'package:kidsdev_teste/db/api/lista.dart';
+import 'package:kidsdev_teste/db/api/operadores.dart';
+import 'package:kidsdev_teste/db/api/variaveis.dart';
+
 import 'package:kidsdev_teste/modules/quiz/quiz_page.dart';
 import 'package:kidsdev_teste/shared/models/user_model.dart';
 import 'package:kidsdev_teste/shared/themes/app_colors.dart';
 import 'package:kidsdev_teste/shared/themes/app_text_styles.dart';
 import 'package:flutter/material.dart';
+
+import 'package:kidsdev_teste/shared/desc.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 
@@ -19,6 +31,76 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  var funcao = List<Funcao>.empty();
+  var ifElse = List<IfElse>.empty();
+  var laco = List<Laco>.empty();
+  var list = List<Lista>.empty();
+  var operadores = List<Operadores>.empty();
+  var variaveis = List<Variaveis>.empty();
+
+  _getFuncao() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        funcao = lista.map((model) => Funcao.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _getIfElse() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        ifElse = lista.map((model) => IfElse.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _getLaco() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        laco = lista.map((model) => Laco.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _getLista() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        list = lista.map((model) => Lista.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _getOperadores() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        operadores = lista.map((model) => Operadores.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _getVariaveis() {
+    API.getFuncao().then((response) {
+      setState(() {
+        Iterable lista = json.decode(response.body);
+        variaveis = lista.map((model) => Variaveis.fromJson(model)).toList();
+      });
+    });
+  }
+
+  _BuildListViewState() {
+    _getFuncao();
+    _getIfElse();
+    _getLaco();
+    _getLista();
+    _getOperadores();
+    _getVariaveis();
+  }
+
   List<String> images = [
     "assets/images/variaveis.png",
     "assets/images/operadores.png",
@@ -28,17 +110,17 @@ class _HomePageState extends State<HomePage> {
     "assets/images/funcao.png",
   ];
 
-  var des = "aaaaaaaa";
-  var des1 = "bbbbbbbb";
-  var des2 = "cccccccc";
-  var des3 = "dddddddd";
-  var des4 = "eeeeeeee";
-  var des5 = "ffffffff";
+  var des = Description.des;
+  var des1 = Description.des1;
+  var des2 = Description.des2;
+  var des3 = Description.des3;
+  var des4 = Description.des4;
+  var des5 = Description.des5;
 
   Widget customcard(String langname, String image) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        vertical: 20.0,
+        vertical: 15.0,
         horizontal: 10.0,
       ),
       child: InkWell(
@@ -182,18 +264,25 @@ class _HomePageState extends State<HomePage> {
           "http://www.bosontreinamentos.com.br/logica-de-programacao/17-logica-de-programacao-vetores-definicao-e-declaracao/";
     } else {
       assettoload = des5;
-      _url = "https://dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/";
+      _url =
+          "https://dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/";
     }
 
     showModalBottomSheet(
+      enableDrag: true,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+        top: Radius.circular(20),
+      )),
       context: context,
       builder: (BuildContext context) {
         return Padding(
           padding: const EdgeInsets.all(28.0),
           child: SizedBox(
-            height: 200,
+            height: 350,
             child: Center(
-              child: Column(
+              child: ListView(
                 children: [
                   Text(assettoload),
                   Expanded(

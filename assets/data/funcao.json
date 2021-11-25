@@ -1,10 +1,10 @@
 [
     {
-        "1": "primeira questão funcao?",
-        "2": "segunda questão ?",
-        "3": "terceira questão ?",
-        "4": "quarta questão ?",
-        "5": "quinta questão ?",
+        "1": "Qual tipo de variável eu devo usar para um número inteiro?",
+        "2": "Qual tipo de variável eu devo usar para qualquer tipo de carácter texto?",
+        "3": "O que são variáveis?",
+        "4": "O que são constantes?",
+        "5": "Qual a diferença entre variáveis do tipo INT e STRING?",
         "6": "sexta questão ?",
         "7": "sétima questão ?",
         "8": "oitava questão ?",
@@ -13,22 +13,22 @@
     },
     {
         "1": {
-            "a": "func",
-            "b": "function",
-            "c": "void",
+            "a": "string",
+            "b": "double",
+            "c": "boolean",
             "d": "int"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "boolean",
+            "b": "float",
+            "c": "string",
+            "d": "int"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "elementos que variam",
+            "b": "elementos complexos na programação",
+            "c": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
+            "d": "números inteiros"
         },
         "4": {
             "a": "cout",
@@ -74,8 +74,8 @@
         }
     },
     {
-        "1": "function",
-        "2": "type",
+        "1": "int",
+        "2": "string",
         "3": "def",
         "4": "print",
         "5": "type",

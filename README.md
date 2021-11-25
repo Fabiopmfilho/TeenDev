@@ -32,7 +32,7 @@ Um aplicativo de perguntas e respostas para ensinar de forma simples o principio
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
- - [Git](https://git-scm.com), 
+ - [Git](https://git-scm.com)
  - [Flutter](https://flutter.dev/docs/get-started/install)
  - [Android SDK](https://developer.android.com/studio)
 

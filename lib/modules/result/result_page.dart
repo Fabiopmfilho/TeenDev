@@ -53,35 +53,37 @@ class _ResultPageState extends State<ResultPage> {
         children: <Widget>[
           Expanded(
             flex: 8,
-            child: Material(
-              elevation: 10.0,
-              child: Column(
-                children: <Widget>[
-                  Material(
-                    child: SizedBox(
-                      width: 300.0,
-                      height: 300.0,
-                      child: ClipRect(
-                        child: Image(
-                          image: AssetImage(
-                            image!,
+            child: SafeArea(
+              child: Material(
+                elevation: 10.0,
+                child: Column(
+                  children: <Widget>[
+                    Material(
+                      child: SizedBox(
+                        width: 300.0,
+                        height: 300.0,
+                        child: ClipRect(
+                          child: Image(
+                            image: AssetImage(
+                              image!,
+                            ), 
                           ),
                         ),
                       ),
                     ),
-                  ),
-                  Padding(
-                      padding: const EdgeInsets.symmetric(
-                        vertical: 5.0,
-                        horizontal: 15.0,
-                      ),
-                      child: Center(
-                        child: Text(
-                          message!,
-                          style: AppTextStyles.bodyBlack,
+                    Padding(
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 5.0,
+                          horizontal: 15.0,
                         ),
-                      )),
-                ],
+                        child: Center(
+                          child: Text(
+                            message!,
+                            style: AppTextStyles.bodyBlack,
+                          ),
+                        )),
+                  ],
+                ),
               ),
             ),
           ),
