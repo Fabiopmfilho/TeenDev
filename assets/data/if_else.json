@@ -1,88 +1,88 @@
 [
     {
-        "1": "primeira questão if else?",
-        "2": "segunda questão ?",
-        "3": "terceira questão ?",
-        "4": "quarta questão ?",
-        "5": "quinta questão ?",
-        "6": "sexta questão ?",
-        "7": "sétima questão ?",
-        "8": "oitava questão ?",
-        "9": "nona questão ?",
-        "10": "décima questão ?"
+        "1": "Qual condicional é executada se a condição for falsa?",
+        "2": "Qual condicional é executada se a condição for verdadeira?",
+        "3": "Qual condicional é um mecanismo de controle de seleção?",
+        "4": "IF e ELSE são a mesma coisa?",
+        "5": "O que são IF e ELSE?",
+        "6": "Qual condicional é executada se a condição for falsa?",
+        "7": "Qual condicional é executada se a condição for verdadeira?",
+        "8": "Qual condicional é um mecanismo de controle de seleção?",
+        "9": "IF e ELSE são a mesma coisa?",
+        "10": "O que são IF e ELSE?"
     },
     {
         "1": {
-            "a": "func",
-            "b": "function",
-            "c": "void",
-            "d": "int"
+            "a": "Operador Lógico",
+            "b": "Int",
+            "c": "Else",
+            "d": "IF"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "IF",
+            "b": "Operador Lógico",
+            "c": "Int",
+            "d": "Else"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "IF",
+            "b": "Else",
+            "c": "Variáveis",
+            "d": "Switch"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "Parcialmente iguais",
+            "b": "Totalmente iguais",
+            "c": "Divergentes",
+            "d": "Todas as alternativas estão corretas"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Constantes",
+            "b": "Switch",
+            "c": "Variáveis",
+            "d": "Estruturas condicionais"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Operador Lógico",
+            "b": "Int",
+            "c": "Else",
+            "d": "IF"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "IF",
+            "b": "Operador Lógico",
+            "c": "Int",
+            "d": "Else"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "IF",
+            "b": "Else",
+            "c": "Variáveis",
+            "d": "Switch"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Parcialmente iguais",
+            "b": "Totalmente iguais",
+            "c": "Divergentes",
+            "d": "Todas as alternativas estão corretas"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Constantes",
+            "b": "Switch",
+            "c": "Variáveis",
+            "d": "Estruturas condicionais"
         }
     },
     {
-        "1": "function",
-        "2": "type",
-        "3": "def",
-        "4": "print",
-        "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
-        "9": "type",
-        "10": "def"
+        "1": "Else",
+        "2": "IF",
+        "3": "Switch",
+        "4": "Divergentes",
+        "5": "Estruturas condicionais",
+        "6": "Else",
+        "7": "IF",
+        "8": "Switch",
+        "9": "Divergentes",
+        "10": "Estruturas condicionais"
     }
 ]

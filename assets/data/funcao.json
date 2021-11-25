@@ -1,88 +1,88 @@
 [
     {
-        "1": "Qual tipo de variável eu devo usar para um número inteiro?",
-        "2": "Qual tipo de variável eu devo usar para qualquer tipo de carácter texto?",
-        "3": "O que são variáveis?",
-        "4": "O que são constantes?",
-        "5": "Qual a diferença entre variáveis do tipo INT e STRING?",
-        "6": "sexta questão ?",
-        "7": "sétima questão ?",
-        "8": "oitava questão ?",
-        "9": "nona questão ?",
-        "10": "décima questão ?"
+        "1": "A função se comparada com uma Variável pode ser concluído que:",
+        "2": "O princípio de uma Função está:",
+        "3": "Os principais objetivos da função são respectivamente:",
+        "4": "Uma das vantagens da utilização da Função",
+        "5": "A reutilização de código influenciará em qual parte da execução?",
+        "6": "A função se comparada com uma Variável pode ser concluído que:",
+        "7": "O princípio de uma Função está:",
+        "8": "Os principais objetivos da função são respectivamente:",
+        "9": "Uma das vantagens da utilização da Função",
+        "10": "A reutilização de código influenciará em qual parte da execução?"
     },
     {
         "1": {
-            "a": "string",
-            "b": "double",
-            "c": "boolean",
-            "d": "int"
+            "a": "São instruções idênticas",
+            "b": "São instruções parcialmente iguais",
+            "c": "São utilizadas para a mesma função, mas não são escritas da mesma maneira",
+            "d": "São coisas completamente diferentes"
         },
         "2": {
-            "a": "boolean",
-            "b": "float",
-            "c": "string",
-            "d": "int"
+            "a": "em permitir encapsular uma ideia ou operação",
+            "b": "em contar números ",
+            "c": "em organizar letras ",
+            "d": "em organizar palavras em ordem alfabética e números em ordem crescente"
         },
         "3": {
-            "a": "elementos que variam",
-            "b": "elementos complexos na programação",
-            "c": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
-            "d": "números inteiros"
+            "a": "Reutilizar; Reciclar; Reduzir",
+            "b": "Identação; Leitura; Redução",
+            "c": "Clareza de Código; Reutilização; Independência",
+            "d": "Nenhuma das alternativas"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "Aumento nas linhas de código",
+            "b": "O programa pode ser executado mesmo com erros de código",
+            "c": "O programa corrigirá os erros automaticamente",
+            "d": "Uma parte da tarefa pode ser chama de qualquer parte do código quantas vezes desejarmos"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "nas primeiras linhas de código",
+            "b": "na aparência (cores, fontes etc.)",
+            "c": "na redução de linhas de código",
+            "d": "na velocidade de execução"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "São instruções idênticas",
+            "b": "São instruções parcialmente iguais",
+            "c": "São utilizadas para a mesma função, mas não são escritas da mesma maneira",
+            "d": "São coisas completamente diferentes"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "em permitir encapsular uma ideia ou operação",
+            "b": "em contar números ",
+            "c": "em organizar letras ",
+            "d": "em organizar palavras em ordem alfabética e números em ordem crescente"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Reutilizar; Reciclar; Reduzir",
+            "b": "Identação; Leitura; Redução",
+            "c": "Clareza de Código; Reutilização; Independência",
+            "d": "Nenhuma das alternativas"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Aumento nas linhas de código",
+            "b": "O programa pode ser executado mesmo com erros de código",
+            "c": "O programa corrigirá os erros automaticamente",
+            "d": "Uma parte da tarefa pode ser chama de qualquer parte do código quantas vezes desejarmos"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "nas primeiras linhas de código",
+            "b": "na aparência (cores, fontes etc.)",
+            "c": "na redução de linhas de código",
+            "d": "na velocidade de execução"
         }
     },
     {
-        "1": "int",
-        "2": "string",
-        "3": "def",
-        "4": "print",
-        "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
-        "9": "type",
-        "10": "def"
+        "1": "São coisas completamente diferentes",
+        "2": "em permitir encapsular uma ideia ou operação",
+        "3": "Clareza de Código; Reutilização; Independência",
+        "4": "Uma parte da tarefa pode ser chama de qualquer parte do código quantas vezes desejarmos",
+        "5": "na velocidade de execução",
+        "6": "São coisas completamente diferentes",
+        "7": "em permitir encapsular uma ideia ou operação",
+        "8": "Clareza de Código; Reutilização; Independência",
+        "9": "Uma parte da tarefa pode ser chama de qualquer parte do código quantas vezes desejarmos",
+        "10": "na velocidade de execução"
     }
 ]

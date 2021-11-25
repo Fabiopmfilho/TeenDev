@@ -1,88 +1,88 @@
 [
     {
-        "1": "primeira questão operadores?",
-        "2": "segunda questão ?",
-        "3": "terceira questão ?",
-        "4": "quarta questão ?",
-        "5": "quinta questão ?",
-        "6": "sexta questão ?",
-        "7": "sétima questão ?",
-        "8": "oitava questão ?",
-        "9": "nona questão ?",
-        "10": "décima questão ?"
+        "1": "Quantos valores os Operadores Lógicos podem assumir?",
+        "2": "Qual dessas operações NÃO pertencem aos operadores aritméticos? ",
+        "3": "A operação Multiplicação “*“, é utilizada em: ",
+        "4": "A operação “E”, é utilizada em: ",
+        "5": "As operações TRUE e FALSE, são utilizadas em:",
+        "6": "Quantos valores os Operadores Lógicos podem assumir?",
+        "7": "Qual dessas operações NÃO pertencem aos operadores aritméticos? ",
+        "8": "A operação Multiplicação “*“, é utilizada em: ",
+        "9": "A operação “E”, é utilizada em: ",
+        "10": "As operações TRUE e FALSE, são utilizadas em:"
     },
     {
         "1": {
-            "a": "func",
-            "b": "function",
-            "c": "void",
-            "d": "int"
+            "a": "6",
+            "b": "7",
+            "c": "1",
+            "d": "2"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "#",
+            "b": "+",
+            "c": "%",
+            "d": "*"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Variáveis do tipo double",
+            "b": "Variáveis do tipo int",
+            "c": "Variáveis do tipo int e double",
+            "d": "Variáveis do tipo String"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "Operadores de Variáveis",
+            "b": "Operadores Aritméticos",
+            "c": "Operadores Lógicos",
+            "d": "Variáveis do tipo Boolean"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Operadores Lógicos",
+            "b": "Operadores Lógicos e Aritméticos",
+            "c": "Operadores de Variáveis",
+            "d": "Nenhuma das Alternativas"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "6",
+            "b": "7",
+            "c": "1",
+            "d": "2"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "#",
+            "b": "+",
+            "c": "%",
+            "d": "*"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Variáveis do tipo double",
+            "b": "Variáveis do tipo int",
+            "c": "Variáveis do tipo int e double",
+            "d": "Variáveis do tipo String"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Operadores de Variáveis",
+            "b": "Operadores Aritméticos",
+            "c": "Operadores Lógicos",
+            "d": "Variáveis do tipo Boolean"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Operadores Lógicos",
+            "b": "Operadores Lógicos e Aritméticos",
+            "c": "Operadores de Variáveis",
+            "d": "Nenhuma das Alternativas"
         }
     },
     {
-        "1": "function",
-        "2": "type",
-        "3": "def",
-        "4": "print",
-        "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
-        "9": "type",
-        "10": "def"
+        "1": "2",
+        "2": "#",
+        "3": "Variáveis do tipo int e double",
+        "4": "Operadores de Variáveis",
+        "5": "Operadores Lógicos e Aritméticos",
+        "6": "2",
+        "7": "#",
+        "8": "Variáveis do tipo int e double",
+        "9": "Operadores de Variáveis",
+        "10": "Operadores Lógicos e Aritméticos"
     }
 ]
