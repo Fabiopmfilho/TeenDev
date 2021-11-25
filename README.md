@@ -66,9 +66,7 @@ $ flutter run lib/main
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Flutter](https://flutter.dev/docs/get-started/install)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Firebase](https://firebase.google.com/)
 
 ----------------------------------------------------------------
 ## 🦸 Autor
