@@ -2,7 +2,7 @@
     {
         "1": "Qual tipo de variável eu devo usar para um número inteiro?",
         "2": "Qual tipo de variável eu devo usar para qualquer tipo de carácter texto?",
-        "3": "O que são variáveis?",
+        "3": "O que faz uma variável?",
         "4": "O que são constantes?",
         "5": "Qual a diferença entre variáveis do tipo INT e STRING?",
         "6": "Qual tipo de variável eu devo usar para um número inteiro?",
@@ -27,7 +27,7 @@
         "3": {
             "a": "elementos que variam o conteúdo",
             "b": "elementos complexos na programação",
-            "c": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
+            "c": "armazenam os dados do algoritmo",
             "d": "números inteiros"
         },
         "4": {
@@ -37,10 +37,10 @@
             "d": "números reais"
         },
         "5": {
-            "a": "int é utilizada pra texto e string e utilizada para números",
-            "b": "int é utilizada para variáveis e string é utilizada para constantes",
-            "c": "int é utilizada para textos de todo tipo e string é utilizada para números de todo tipo",
-            "d": "int é utilizada para números inteiros e string é utilizada para caracteres do tipo texto"
+            "a": "int pra texto e string para números",
+            "b": "int para variáveis e string para constantes",
+            "c": "int textos e string é para números",
+            "d": "int para números e string é texto"
         },
         "6": {
             "a": "string",
@@ -57,7 +57,7 @@
         "8": {
             "a": "elementos que variam o conteúdo",
             "b": "elementos complexos na programação",
-            "c": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
+            "c": "armazenam os dados do algoritmo",
             "d": "números inteiros"
         },
         "9": {
@@ -67,22 +67,22 @@
             "d": "números reais"
         },
         "10": {
-            "a": "int é utilizada pra texto e string e utilizada para números",
-            "b": "int é utilizada para variáveis e string é utilizada para constantes",
-            "c": "int é utilizada para textos de todo tipo e string é utilizada para números de todo tipo",
-            "d": "int é utilizada para números inteiros e string é utilizada para caracteres do tipo texto"
+            "a": "int pra texto e string para números",
+            "b": "int variáveis e string é utilizada para constantes",
+            "c": "int textos e string é para números",
+            "d": "int para números inteiros e string é texto"
         }
     },
     {
         "1": "int",
         "2": "string",
-        "3": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
+        "3": "armazenam os dados do algoritmo",
         "4": "elementos que não mudam seu valor",
-        "5": "int é utilizada para números inteiros e string é utilizada para caracteres do tipo texto",
+        "5": "int para números e string é texto",
         "6": "int",
         "7": "string",
-        "8": "aquelas que armazenam os dados que precisamos no nosso algoritmo",
+        "8": "armazenam os dados do algoritmo",
         "9": "elementos que não mudam seu valor",
-        "10": "int é utilizada para números inteiros e string é utilizada para caracteres do tipo texto"
+        "10": "int para números e string é texto"
     }
 ]

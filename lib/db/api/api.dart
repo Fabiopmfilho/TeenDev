@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 const baseUrl = 'https://console.firebase.google.com/project/kidsdev-954b0/firestore/data/~2F';
 
 class API {
+  // lista de get para cada tema de conteudo
   static Future getFuncao() async {
     String url = baseUrl + "/funcao";
     return await http.get(Uri.parse(url));
