@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.ff.kidsdev_teste">
    <application
-        android:label="kidsDev"
+        android:label="TeenDev"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
