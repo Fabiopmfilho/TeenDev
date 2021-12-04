@@ -18,7 +18,7 @@ class SplashPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text.rich(
-              TextSpan(text: "<Kids", style: AppTextStyles.splash, children: [
+              TextSpan(text: "<Teen", style: AppTextStyles.splash, children: [
                 TextSpan(text: 'Dev', style: AppTextStyles.splashBold),
                 TextSpan(text: '/>', style: AppTextStyles.splash),
               ]),

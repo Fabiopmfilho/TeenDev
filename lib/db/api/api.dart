@@ -1,6 +1,7 @@
 import 'package:http/http.dart' as http;
+import 'package:kidsdev_teste/shared/env.dart';
 
-const baseUrl = 'https://console.firebase.google.com/project/kidsdev-954b0/firestore/data/~2F';
+var baseUrl = Env.baseUrl;
 
 class API {
   // lista de get para cada tema de conteudo
